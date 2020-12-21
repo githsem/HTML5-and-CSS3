@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: Georgia, serif;
+    line-height: 1.4;
+}
+header {
+    padding: 1.67%;
+}
+h1 {
+    font-size: 32px;
+}
+main {
+    background-color: #b4a7d6;
+}
+article {
+    float: left;
+    width: 66.67%;
+    padding: 1.25%;
+}
+h2 {
+    font-size: 24px;
+}
+article p {
+    margin-bottom: 1em;
+}
+aside {
+    float: left;
+    width: 33.33%;
+    padding: 1.25%;
+}
+h3 {
+    font-size: 20px;
+}
+div {
+    padding-bottom: 8px;
+}
+a {
+    color: indigo;
+}
+@media (max-width: 500px) {
+    article {
+        float: none;
+        width: 100%;
+    }
+    aside {
+        float: none;
+        width: 100%;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    main {
+        background-color: white;
+    }
+}
+footer {
+    padding: 1.67%;
+}
+.self-clear::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* BACKGROUND COLORS */
+header {
+    background-color: #6fa8dc;
+    background-image: linear-gradient(to bottom, #cfe2f3 0%, #6fa8dc 100%);
+}
+nav {
+    background-color: #e06666;
+    background-image: linear-gradient(to bottom, #f4cccc 0%, #e06666 100%);
+}
+article {
+    background-color: white;
+}
+aside {
+    background-color: #b4a7d6;
+}
+footer {
+    background-color: #b6d7a8;
+    background-image: linear-gradient(to bottom, #d9ead3 0%, #b6d7a8 100%);
+}
